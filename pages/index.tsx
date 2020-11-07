@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Simple Chat Client</title>
+        <title>Sample Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
