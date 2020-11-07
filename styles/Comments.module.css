@@ -1,0 +1,9 @@
+.container {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.comment {
+  padding-left: 1rem;
+  margin: 1rem auto;
+}

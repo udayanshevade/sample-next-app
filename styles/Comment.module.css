@@ -1,0 +1,21 @@
+.comment {
+  padding: 1rem 0;
+  border-bottom: 1px solid #efefef;
+}
+
+.name {
+  color: #333;
+}
+
+.email {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.emailLink,
+.emailLink:hover,
+.emailLink:focus,
+.emailLink:visited {
+  color: #333;
+  text-decoration: none;
+}
