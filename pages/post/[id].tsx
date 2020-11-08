@@ -1,16 +1,9 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import useSwr from 'swr';
-import { Post } from './Post';
+import { Post, IPost } from '../../components/Post';
 import { Comments } from './Comments';
 import { root } from '../../apiConfig';
-
-interface IPost {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-}
 
 const fetcher = async (url: string): Promise<IPost> => {
   const res = await fetch(url);

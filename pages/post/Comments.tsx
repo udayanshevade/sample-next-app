@@ -1,6 +1,6 @@
 import React from 'react';
 import useSwr from 'swr';
-import { Comment, IComment } from './Comment';
+import { Comment, IComment } from '../../components/Comment';
 import { root } from '../../apiConfig';
 import styles from '../../styles/Comments.module.css';
 

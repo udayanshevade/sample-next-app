@@ -2,6 +2,13 @@ import React from 'react';
 import classnames from 'classnames';
 import styles from '../../styles/Post.module.css';
 
+export interface IPost {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
+}
+
 export const Post = ({
   id,
   className,
@@ -10,7 +17,7 @@ export const Post = ({
 }: {
   id: number;
   userId: number;
-  className: string | undefined;
+  className?: string;
   title: string;
   body: string;
 }) => (
